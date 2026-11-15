@@ -1,0 +1,19 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#4658ce"><title>Mathe-Mission aktualisieren</title><style>
+*{box-sizing:border-box}body{font:18px/1.6 system-ui,-apple-system,sans-serif;background:#eef3ff;color:#17264b;margin:0;padding:22px}main{max-width:620px;background:white;margin:5vh auto;padding:30px;border-radius:24px;box-shadow:0 12px 40px #25366518}h1{font-size:30px}a,button{display:inline-block;padding:13px 18px;border-radius:13px;background:#4269e8;color:white;text-decoration:none;font:700 17px system-ui;border:0;cursor:pointer;margin:8px 8px 0 0}.secondary{background:#e9efff;color:#263b72}.ok{background:#e8f7ee;padding:16px;border-radius:12px}.error{background:#fff0e9;padding:16px;border-radius:12px}[hidden]{display:none}</style></head><body><main>
+<p>&#129418; Mathe-Mission 4 &middot; Version 5.0.0</p><h1>App aktualisieren</h1>
+<p>Diese Seite speichert das komplette neue Aufgabenpaket auf diesem Ger&auml;t. Daf&uuml;r wird einmal eine Internetverbindung ben&ouml;tigt. Deine gespeicherten Sterne werden nicht gel&ouml;scht.</p>
+<p id="state" role="status" aria-live="polite">Aktualisierung wird gepr&uuml;ft &hellip;</p>
+<a id="open" href="./index.html?version=5.0.0" hidden>Neue Version starten &rarr;</a><button id="retry" class="secondary" hidden>Noch einmal pr&uuml;fen</button>
+<p><small>Aktualisiere nicht mitten in einer Probepr&uuml;fung. Die neue Auswertung beginnt mit einem neuen Lernverlauf; vorhandene Sterne aus Version 4 werden beim ersten Start &uuml;bernommen.</small></p>
+</main><script>
+'use strict';
+const state=document.getElementById('state'),open=document.getElementById('open'),retry=document.getElementById('retry');
+function status(worker){return new Promise(resolve=>{if(!worker)return resolve(null);const c=new MessageChannel(),timer=setTimeout(()=>resolve(null),1400);c.port1.onmessage=e=>{clearTimeout(timer);resolve(e.data);};worker.postMessage({type:'STATUS'},[c.port2]);});}
+async function update(){retry.hidden=true;open.hidden=true;state.className='';state.textContent='Die App-Dateien werden kontrolliert und gespeichert.';
+try{if(!('serviceWorker' in navigator)||!isSecureContext)throw Error('Bitte diese Seite unter deiner HTTPS-Adresse in Safari oder Chrome aufrufen.');
+const r=await navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'});await r.update();
+for(let i=0;i<50;i++){const info=await status(r.active);if(info?.version==='5.0.0'&&info.ready){state.className='ok';state.textContent='Version 5.0.0 ist vollst\u00e4ndig gespeichert und offline bereit. Starte jetzt die neue App.';open.hidden=false;return;}if(r.waiting)r.waiting.postMessage({type:'SKIP_WAITING'});await new Promise(resolve=>setTimeout(resolve,500));}
+throw Error('Das neue Paket ist noch nicht vollst\u00e4ndig erreichbar. Pr\u00fcfe, ob alle Dateien gemeinsam bei GitHub ver\u00f6ffentlicht wurden, und versuche es danach erneut.');
+}catch(e){state.className='error';state.textContent=e.message||'Die Aktualisierung ist fehlgeschlagen. Bitte online erneut versuchen.';retry.hidden=false;}}
+retry.addEventListener('click',update);update();
+</script></body></html>

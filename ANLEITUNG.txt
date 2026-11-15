@@ -1,0 +1,80 @@
+MATHE-MISSION 4 - VERSION 5.0.0
+Stand: 15. November 2026
+
+AKTUALISIERUNG BEI GITHUB PAGES
+
+1. Diese ZIP-Datei auf dem Computer vollständig entpacken.
+2. Dein vorhandenes Repository öffnen, dann Add file > Upload files.
+3. Alle entpackten Dateien in dasselbe Verzeichnis hochladen, in dem
+   deine bisherige index.html liegt. Vorhandene Dateien ersetzen.
+   Nicht die ZIP-Datei selbst hochladen, nicht nur index.html ersetzen
+   und keinen zusätzlichen Unterordner anlegen.
+4. Commit changes. Unter Actions kontrollieren, ob die neue
+   Pages-Veröffentlichung erfolgreich abgeschlossen wurde.
+5. Auf dem iPad online deine bisherige App-Adresse aufrufen. Hänge
+   an die Ordneradresse aktualisieren.html an. Beispiel:
+   https://DEINNAME.github.io/mathe-mission-4/aktualisieren.html
+6. Wenn die Aktualisierungsseite Version 5.0.0 als offline bereit
+   meldet, auf Neue Version starten tippen. Danach die App auf dem
+   Home-Bildschirm vollständig schließen und erneut online öffnen.
+7. In DER APP kontrollieren: oben Version 5.0 und unten Version 5.0.0.
+   Unten muss nach erfolgreicher Speicherung Offline bereit stehen.
+   Falls noch Version 4 erscheint, die App online einmal laden lassen,
+   vollständig schließen und erneut öffnen. Nicht die Websitedaten
+   löschen. In Version 5 gibt es unter Für Eltern ebenfalls den Link
+   App-Dateien aktualisieren. Das funktioniert auch innerhalb der App.
+8. Zum Gerätetest WLAN ausschalten, App schließen und erneut starten.
+   Eine Trainingsaufgabe bearbeiten. Danach WLAN wieder einschalten.
+
+EMPFOHLENER START
+
+Zuerst Bedienung ausprobieren. Dabei werden Zeichnen, Felder setzen
+und Kugeln färben ohne Zeitdruck und ohne Bewertung geübt.
+Anschließend Training > Alle Themen > Alle Anforderungen.
+Verknüpfen & Knobeln erlaubt gezieltes anspruchsvolleres Training.
+Nur Grundlagen ist bewusst eine einfachere Auswahl, kein kompletter
+Prüfungsvorbereitungsmodus. Falsche oder mit Hilfe gelöste Typen
+bleiben im Fehlertraining. Bis zu drei neue Varianten kommen in
+einer Trainingsrunde zur Wiederholung hinzu.
+
+Für eine Probeprüfung Papier, Bleistift und Lineal bereitlegen.
+22 Aufgabenblöcke, 45 Minuten. Antworten lassen sich auslassen,
+später bearbeiten und korrigieren. Tipps gibt es erst nach Abgabe.
+Die Uhr läuft beim Verlassen weiter. Ein neuer Prüfungssatz hat
+neue Zahlen/Zeichnungen; A, B und C sind wiederholbare Übungssätze.
+
+FORTSCHRITT
+
+Die Daten bleiben auf dem jeweiligen Gerät. Kein gemeinsames Konto,
+keine zentrale Ergebnisliste und keine Werbung. Die App sendet
+Lösungen und Lernstatistik nicht an einen Server.
+Vorhandene Sterne der alten Version werden, wenn im selben Browser-
+Speicher vorhanden, übernommen. Alte Prüfungsergebnisse werden
+bewusst nicht als neue Kompetenznachweise weiterverwendet.
+Unter Für Eltern gibt es Sicherung exportieren/einlesen.
+Browserbereinigung, privater Modus oder Gerätewechsel können Daten
+verlieren lassen. Safari und eine Home-Bildschirm-App können getrennte
+Speicher verwenden; die Versionsanzeige direkt in der Lernapp ist
+entscheidend.
+
+EINORDNUNG
+
+Eigenständige Übungsapp, am veröffentlichten Haupttermin 2025
+abgeglichen. Keine Originalprüfung, keine IBBW-Anerkennung und keine
+amtlich normierte Punkteskala. Keine Garantie für konkrete Aufgaben
+oder ein bestimmtes Ergebnis einer zukünftigen Prüfung.
+Freie Erklärungen und sauberes Zeichnen auf Papier sollten ebenfalls
+geübt werden. Details und durchgeführte Tests: PRUEFBERICHT.txt.
+
+DIE ACHT APP-DATEIEN
+index.html - Oberfläche
+bank.js - Aufgaben, Mathematik und Auswertung
+app.js - Bedienung, Training, Prüfung und Fortschritt
+sw.js - Offline-Paket und Aktualisierung
+manifest.webmanifest - Installation als Web-App
+icon-192.png und icon-512.png - unveränderte App-Symbole
+aktualisieren.html - geführte Aktualisierung
+
+Die weiteren drei Dateien sind diese Anleitung, der Prüfbericht
+und das maschinenlesbare Prüfprotokoll. Sie dürfen mit hochgeladen
+werden, sind aber für die Ausführung nicht erforderlich.

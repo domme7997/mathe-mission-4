@@ -1,0 +1,156 @@
+PRÜFBERICHT - MATHE-MISSION 4, VERSION 5.0.0
+Stand: 15. November 2026
+
+1. ZIEL UND REFERENZ
+
+Geprüft wurden die Kompetenzen und Aufgabenformate des veröffentlichten
+Mathematik-Haupttermins Kompass 4 vom 20. November 2025 (22 Aufgaben;
+45 Minuten). Texte, Zahlen und Grafiken dieser App sind eigenständig.
+Originalblätter werden nicht kopiert oder mitgeliefert.
+
+2. INHALTLICHER ABGLEICH
+
+Originalnr.   Entsprechung in der neuen App
+1             Addition/Subtraktion mit mehrstelligen Zahlen
+2             Informationen aus einer Sachsituation verrechnen
+3             Nachbarzehner bei vierstelligen Zahlen
+4             Multiplikation und Division
+5             Abwechselnde Rechenschritte einer Zahlenfolge
+6             Darstellungen vergleichen: Produkt, Summe, Sprünge, Punkte
+7             Zahlenmauer optimieren, Deckstein und Veränderung bestimmen
+8             Hunderter/Zehner/Einer bündeln
+9             Zahlenmitte bestimmen
+10            Rechenvorteil mit Ausgleich/Korrektur nachvollziehen
+11            Ergänzungsteil zum Rechteck finden und gedanklich drehen
+12            Flächen aus gleich großen Quadraten vergleichen
+13            Zusammenhängende Würfelfigur unter räumlicher Drehung erkennen
+14            Alle Spiegelachsen konstruieren
+15            Rechte Ansicht eines Würfelgebäudes bestimmen
+16            Vier vorgegebene Flächen zu einem Würfelnetz ergänzen
+17            Preistabelle, Personenanzahl, Mehrfachkauf und Rückgeld
+18            Uhrzeit und Zeitdauer mit Stundenübergang
+19            Sinnvolle Größenangaben auswählen
+20            Tabellenwerte in m lesen und Unterschiede in cm bestimmen
+21            Kugeln passend zu sicher/möglich, aber nicht sicher färben
+22            Gleiche Gewinnchancen durch Farbanteile herstellen
+
+Hinzu kommen 10 weitere Aufgabenfamilien:
+Diagramme lesen; Diagramme bauen; Gewichte/Füllmengen; Kombinationen;
+Zahlenstrahl; Zahlenmauern rückwärts; Rechenfehler erklären;
+Spiegelbilder ergänzen; Umfang; Planungsaufgaben mit Rest.
+Insgesamt: 32 Aufgabenfamilien mit kontrollierten Variationen.
+
+3. SCHWIERIGKEIT UND GRENZEN DES ABGLEICHS
+
+Die Schwierigkeit entsteht nicht nur durch größere Zahlen:
+Zusammenhänge erkennen, Strategien korrigieren, optimieren, räumlich
+drehen, Flächen vergleichen und Anteile erhalten sind eigene Ziele.
+Jede Probeprüfung enthält alle 22 Referenzbereiche, nicht nur zufällig
+gewählte Grundrechenaufgaben. Grundlage und Denkaufgaben sind gemischt.
+Die internen Hauptkategorien umfassen 11 Grundlagen-, 5 Verknüpfungs-
+und 6 Knobelblöcke. Diese didaktischen Arbeitstitel sind NICHT mit
+amtlichen G-/M-/E-Einstufungen oder empirischen Aufgabenschwierigkeiten
+gleichzusetzen. Auch die 42 erreichbaren Punkte sind eigene Gewichte.
+
+Nicht identische digitale Umsetzungen:
+- Rechteckergänzung wird mit stufigen Gitterfiguren geübt. Im Original
+  kommen auch Figuren mit schrägen Begrenzungen vor.
+- Flächen werden gegen eine genannte Zahl von Einheitsquadraten
+  verglichen, nicht exakt in der Original-Ankreuzanordnung.
+- Achsen werden durch zwei Gitterpunkte gesetzt, statt frei mit Lineal.
+- Kugeln und Netze werden durch Antippen statt mit Stift konstruiert.
+- Die Zahlenmauer verlangt eine optimale Anordnung, den Deckstein und
+  die quantitative Wirkung eines Tauschs. Eine eigene mündliche
+  Begründung wird angeregt, aber nicht als Freitext automatisch benotet.
+- Rechenfehler-Erklärungen sind teilweise strukturierte Auswahlen.
+
+Diese Anpassungen üben die genannten Kompetenzen, beweisen aber keine
+identische Schwierigkeit. Eine amtliche Normierung, Erprobung mit einer
+repräsentativen Kindergruppe oder fachdidaktische Fremdbegutachtung hat
+nicht stattgefunden. Die Prüfung 2026 wird nicht vorweggenommen.
+Ein hoher App-Prozentwert wird deshalb nicht als Note, Schulform-
+empfehlung oder sichere Prognose ausgegeben.
+
+4. MATHEMATISCHE UND LOGISCHE TESTS
+
+6.400 Aufgabenvarianten: 100 feste Zufallsstarts je Familie, jeweils
+mit und ohne Erweiterungsflag. 81.719 automatische Einzelprüfungen.
+Alle durchgeführten Prüfungen bestanden.
+
+Kontrollen umfassen:
+- Reproduzierbare Erzeugung; korrekte Musterantworten; leere Antworten
+  ohne Punkte; absichtlich falsche Zahlen und falsche Auswahlantworten.
+- Vergleich der Zahlenlösungen mit separaten Kontrollrechnungen aus
+  den Aufgabendaten, nicht nur Rückvergleich mit dem gespeicherten Wert.
+- Optimale Decksteine durch alle sechs Permutationen der Grundzahlen.
+- Rechteckteile durch eine zweite, unabhängige Dreh-/Platzierungssuche.
+- Zeichnungen/Flächen anhand der zugrundeliegenden Gitterzellen.
+- 24 echte räumliche Drehungen; genau eine kongruente Auswahlfigur.
+- Spiegelungen der Eckpunkte; vertauschte Linienendpunkte; falsche
+  zusätzliche Achsen; zulässige Teilbewertung.
+- Vollständige Aufzählung der 35 freien Hexominos: davon 11 faltbare
+  Würfelnetze; Erhalt der Bewertung bei Drehung/Spiegelung/Verschiebung.
+- Unterschiedliche richtige Anordnungen der Zahlenmauer und Kugeln.
+- Gewinnchancen durch Kreuzprodukte von Farb- und Gesamtanzahl.
+- Positive Diagrammdifferenzen, Einheiten, Geld in Cent, Stundenübertrag,
+  vollständige Kombinationen ohne doppelte Einträge.
+- Zahlenformate: Dezimalkomma, Tausendertrennungen und passende Einheiten;
+  Ablehnung von leeren, ungültigen oder unpassend beschrifteten Eingaben.
+- 50 weitere Prüfungsstarts: 22 Referenzblöcke und 42 Gesamtpunkte.
+
+Diese Tests sind breit, aber kein mathematischer Fehlerfreiheitsbeweis
+für jedes künftige Gerät und jede mögliche Eingabefolge.
+
+5. BEDIEN- UND DARSTELLUNGSTESTS
+
+158 Prüfpunkte im Chromium-Browser, Version 144.0.7559.96.
+Alle 32 Aufgabenfamilien wurden über die tatsächlichen Eingabefelder
+und Schaltflächen beantwortet, einschließlich Zeichnen/Färben/Felder.
+
+Zusätzlich: vollständige Probeprüfung mit 42/42, leere Prüfung
+mit 0/42, Teilpunkte, Zeitablauf, Auslassen/Zurück/Korrigieren,
+Markierungen, Wiederaufnahme aus gespeicherten Daten, Fehlerhinweis,
+Verbessern, Wiederholungsvariante und keine Selbstständigkeitswertung
+nach eingeblendeter Lösung. Keine JavaScript-Fehler in diesen Tests.
+Darstellungen bei 390, 768, 820 und 1024 Pixel Breite kontrolliert;
+keine horizontale Überbreite in den geprüften Aufgabenansichten.
+Startseite, geometrische Aufgaben und Ergebnisansicht visuell geprüft.
+
+Testumgebung: Die Benutzeroberfläche lief in einem echten Chromium-
+Renderer. Wegen der URL-Beschränkungen dieser Arbeitsumgebung wurde
+die Webspeicher-Schnittstelle für diese Tests nachgebildet. Der Ablauf
+des Speicherns/Wiederherstellens wurde damit geprüft, nicht die reale
+Speicherhaltung einer konkreten iPadOS-Version.
+Kein Test auf einem physischen iPad und kein Safari-/WebKit-Lauftest.
+
+6. OFFLINE- UND AKTUALISIERUNGSLOGIK
+
+36 erfolgreiche Prüfpunkte am tatsächlichen sw.js:
+vollständiges Laden vor Aktivierung; Ablehnen fehlender oder gemischter
+Versionen; alle App-Ressourcen aus dem Cache bei abgeschaltetem Netz;
+URL-Zuordnung; Offline-Status; Erhalt fremder App-Caches.
+Die Datei wurde in Node mit nachgebildeter Browser-Cache-Schnittstelle
+und echten lokalen HTTP-Abrufen ausgeführt. Dies ist ein Logiktest,
+kein Ende-zu-Ende-Nachweis des Service Workers unter iPadOS.
+Deshalb nach dem Hochladen den kurzen Offline-Test der Anleitung
+auf dem tatsächlichen iPad durchführen.
+
+7. QUELLEN (ABGERUFEN/ABGEGLICHEN AM 15.11.2026)
+
+IBBW, Mathematik Haupttermin 20.11.2025:
+https://ibbw-bw.de/site/pbs-bw-rebrush2024/get/documents_E2067908024/KULTUS.Dachmandant/KULTUS/Dienststellen/ibbw/Kompetenzmessung/dokumente/Kompass%204/Kompass%204_Mathematik_2025_2026.pdf
+
+IBBW, Konzeption und Originaltests:
+https://ibbw-bw.de/,Lde_DE/Startseite/Pruefungen%2B_%2BLernstandserhebungen/Kompass%2B4-%2BKonzeption
+
+Kultusministerium, Weiterentwicklung im Schuljahr 2025/2026:
+https://beteiligungsportal.baden-wuerttemberg.de/fileadmin/redaktion/m-km/intern/PDF/Pressemitteilungen_Dokumente/2025/K4_Infopapier.pdf
+
+Bildungsplan Grundschule Mathematik, aktualisierte Fassung:
+https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2
+
+Technikreferenz, Service Worker:
+https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+
+Prüfzahlen, einzelne Bedienprüfungen und SHA-256-Prüfsummen der acht
+App-Dateien stehen in pruefprotokoll.json.
